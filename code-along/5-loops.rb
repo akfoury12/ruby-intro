@@ -7,3 +7,7 @@ things_that_would_be_better_with_bacon = ["tacos", "cheeseburgers", "donuts"]
 # The Old Way
 
 # The New Way
+
+for food in things_that_would_be_better_with_bacon
+    puts "bacon & #{food}"
+end

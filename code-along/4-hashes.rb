@@ -7,3 +7,18 @@
 # Accessing data from the hash
 
 # More Complex Hashes
+
+profile = 
+{
+    name: "chuck",
+    location: 
+    {
+        city:"chicago", state:"IL"
+    },
+    status: "XYZ"
+    timeline: 
+    [
+        "A", "B", "C", "D"
+    ]
+}
+puts profile

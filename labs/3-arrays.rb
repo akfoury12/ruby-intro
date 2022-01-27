@@ -19,3 +19,6 @@ my_list = ["bananas","apples"]
 your_list = ["bread", "pudding", "apples"]
 our_list = my_list + your_list
 puts our_list.sort.uniq
+puts "****"
+our_list_new = our_list.sort.uniq
+puts our_list_new
