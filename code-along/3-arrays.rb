@@ -10,3 +10,29 @@
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# favorite_foods = ["tacos","pizza", "ice cream"]
+
+# puts favorite_foods
+
+# we_have_to_go_back = [4,8,15,16,23,42]
+
+# puts we_have_to_go_back
+
+# puts favorite_foods[2]
+
+
+shopping_list = [["coffee", "oatly", "diapers"], ["beer","tacos"]]
+
+puts shopping_list
+puts shopping_list[1][1]
+
+
+
+# add to array
+
+add_shopping_list = shopping_list + ["more friggin tacos"]
+
+p add_shopping_list
+p add_shopping_list.size
+
